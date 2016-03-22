@@ -1,0 +1,362 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/*Хедер*/
+	.most-wanted {
+		padding-top: 0 !important;
+	}
+	/*Тест-драйв*/
+	.test-drive h2 {
+		margin-top: 90px !important;
+	}
+	.test-drive p {
+		padding-left: 10px !important;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.test-drive-form {
+		margin-top: 0 !important;
+	}
+	/*Характеристики*/
+	.sale-result {
+	    width: 32% !important;
+	}
+	.sale-block label {
+		margin-top: 42px !important;
+	}
+	#checkout ul {
+		width: 100% !important;
+		float: none !important;
+	}
+	.sale-color {
+		width: 100% !important;
+		float: none !important;
+	}
+	#checkout .button {
+		margin-top: 17px;
+	}
+	/*Футер*/
+	.feedback-wrap {
+		background-size: contain !important;
+	}
+	.news-subscribe-form .user-name,
+	.news-subscribe-form .user-email {
+		top: 65px !important;
+		width: 140px !important;
+		height: 40px !important;
+		line-height: 40px !important;
+	}
+	.news-subscribe-form .user-name {
+		left: 130px !important;
+	}
+	.news-subscribe-form .user-email {
+		right: 130px !important;
+	}
+	.news-subscribe-form .submit-button {
+		bottom: 50px !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	/*Хедер*/
+	.main-nav ul {
+		display: none;
+		position: absolute;
+		right: 0;
+		top: 60px;
+		line-height: 40px !important;
+		z-index: 1;
+	}
+	.main-nav ul li {
+		display: block !important;
+		padding: 0 20px;
+		background-color: rgba(51,51,51,0.8);
+		margin-left: 0;
+	}
+	.main-nav ul li:last-child {
+		border-bottom-left-radius: 30px;
+	}
+	.most-wanted {
+		margin-top: -40px;
+	}
+	/*Тест-драйв*/
+	.test-drive-form {
+		float: none !important;
+		margin: 20px auto !important;
+	}
+	.description {
+		border-right: 1px solid #333 !important;
+	}
+	.design-wrap {
+		margin-top: 100px !important;
+	}
+	.header cite {
+	text-align: center !important;
+	}
+	/*Характеристики*/
+	.sale-block label {
+		margin-top: 25px !important;
+	}
+	#checkout .button {
+		position: absolute;
+		right: 20px;
+		left: none !important;
+		bottom: 40px;
+		width: 150px !important;
+	}
+	/*Комплектация*/
+	.picking h2 {
+		text-align: center;
+	}
+		.slider-wrapper {
+		-moz-transform: scale(0.7) !important;
+		-webkit-transform: scale(0.7) !important;
+		-o-transform: scale(0.7) !important;
+		-ms-transform: scale(0.7) !important;
+		transform: scale(0.7) !important;
+		top: -10px;
+		right: 0!important
+	}
+	.controls {
+		top: 70px !important;
+		right: 40px !important;
+	}
+	/*Футер*/
+	.news-subscribe-form legend {
+		top: 10px !important;
+	}
+	.news-subscribe-form .user-name,
+	.news-subscribe-form .user-email {
+		top: 55px !important;
+		width: 140px !important;
+	}
+	.news-subscribe-form .user-name {
+		left: 120px !important;
+	}
+	.news-subscribe-form .user-email {
+		right: 120px !important;
+	}
+	.news-subscribe-form .submit-button {
+		bottom: 65px !important;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {
+		background-image: none !important;
+	}
+	/*Хедер*/
+	.text-shop {
+		display: none;
+	}
+	.top-nav {
+		height: 50px !important; 
+		line-height: 50px !important;
+	}
+	#main-nav, #main-nav h1, .nav-button, .stripe {
+		height: 50px !important;
+		line-height: 50px !important;
+	}
+	.main-nav ul {
+		top: 50px;
+	}
+	.wrap {
+		top: 50px;
+	}
+	.benefit ul li {
+		margin-top: 20px !important;
+		font-size: 16px !important;
+	}
+	/*Тест-драйв*/
+	.test-drive h2 {
+		margin-top: 70px !important;
+	}
+	/*Дизайн*/
+	.description {
+		border-right: 1px solid transparent !important;
+	}
+	.design-wrap {
+		margin-top: 20px !important;
+		height: 250px !important;
+	}
+	.description h2 {
+		padding-top: 10px !important;
+	}
+	.design-wrap p {
+		font-size: 14px !important;
+		line-height: 30px !important;
+	}
+	/*Характеристики*/
+	.characteristic .row {
+		padding-top: 70px !important;
+	}
+	.characteristic table {
+	font-size: 16px !important;
+	}
+	.characteristic table tr td {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	}
+	.characteristic .button {
+		line-height: 24px;
+	}
+	/*Комплектация*/
+	.picking .wrapper {
+		padding-top: 70px !important;
+	}
+	.picking h2:last-child {
+		margin-top: 0 !important;
+	}
+	.slider-wrapper {
+		-moz-transform: scale(0.65) !important;
+		-webkit-transform: scale(0.65) !important;
+		-o-transform: scale(0.65) !important;
+		-ms-transform: scale(0.65) !important;
+		transform: scale(0.65) !important;
+		top: -60px;
+		right: -70px !important;
+	}
+	.controls {
+		top: 25px !important;
+		right: 0 !important;
+	}
+	/*Футер*/
+	.feedback-wrap {
+		background-image: none !important;
+	}
+	.news-subscribe-form legend {
+		top: 5px !important;
+	}
+	.news-subscribe-form .user-name,
+	.news-subscribe-form .user-email {
+		width: 70% !important;
+		border-radius: 10px !important;
+	}
+	.news-subscribe-form .user-name {
+		top: 45px !important;
+		left: 15% !important;
+	}
+	.news-subscribe-form .user-email {
+		top: 105px !important;
+		left: 15% !important;
+	}
+	.news-subscribe-form .submit-button {
+		bottom: 20px !important;
+	}
+}
+/* Extra Small Devices */
+@media only screen and (max-width : 600px) {
+	* h2 {
+		font-size: 20px !important;
+	}
+	/*Тест-драйв*/
+	.test-drive-form {
+		width: 100% !important;
+		height: 210px !important;
+		background-image: none !important;
+		background-color: #000;
+		margin: 5px auto !important;
+		border-radius: 30px !important;
+	}
+	.test-drive-form .user-name,
+	.test-drive-form .user-email {
+		width: 70% !important;
+		border-radius: 10px !important;
+	}
+	.test-drive-form .user-name {
+		top: 40px !important;
+		left: 15% !important;
+	}
+	.test-drive-form .user-email {
+		top: 90px !important;
+		left: 15% !important;
+	}
+	.test-drive-form .submit-button {
+		width: 175px !important;
+		bottom: 20px !important;
+	}
+	/*Дизайн*/
+	.design-wrap {
+		margin-top: 0 !important;
+		height: 200px !important;
+	}
+	/*Характеристики*/
+	.sale-block {
+		padding-bottom: 10px !important;
+	}
+	.sale-block .button {
+		width: 50px !important;
+		height: 50px !important;
+		line-height: 50px !important;
+		font-size: 14px !important;
+	}
+	.sale-result, .percent {
+		height: 50px !important;
+		line-height: 50px !important;
+		font-size: 30px !important;
+	}
+	.sale-result {
+		width: 40% !important;
+	}
+	#checkout input {
+		width: 60% !important;
+	}
+	.sale-color select {
+		width: 47%;
+	}
+	#checkout .button {
+		height: 40px !important;
+	}
+	/*Комплектация*/
+	.display-less-600 {
+		display: block !important;
+	}
+	.hidden-less-600 {
+		display: none;
+	}
+	.slider-wrapper {
+		width: 350px !important;
+		height: 260px !important;
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-o-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+		position: static !important;
+		border: none !important;
+		margin: 0 auto !important;
+	}
+	.slider {
+		width: 350px !important;
+		height: 175px !important;
+	}
+	.captions {
+		font-size: 14px !important;
+		height: 30px !important;
+		line-height: 30px !important;
+		width: 100% !important;
+		border-bottom: none !important;
+		margin: 5px auto 0 !important;
+	}
+	.controls {
+		display: none !important;
+	}
+	.side-controls {
+		width: 350px !important;
+		height: 55px !important;
+	}
+	.side-controls label {
+		top: 13px !important;
+	}
+	/*Футер*/
+	.tabbed > label {
+		padding: 10px 10px !important;
+	}
+	.up {
+		height: 40px !important;
+		line-height: 40px !important;
+		padding: 0 5px !important;
+	}
+}
+
